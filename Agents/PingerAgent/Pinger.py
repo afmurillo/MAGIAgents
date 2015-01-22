@@ -19,16 +19,21 @@ class Pinger(DispatchAgent):
 		DispatchAgent.__init__(self)
 		self.interval = 1
 		self.address = '10.1.1.8'
+		self.logFile = 'pinger.txt'
+		self.logFile = 'pinger.txt'
 
 	@agentmethod()
 	def startPing(self,msg):
-		self.builtcommand = 'ping -i ' + str(self.interval) + ' '  + self.address
-		self.p = subprocess.Popen(self.builtcommand, shell=True)
+        self.builtcommand = 'ping -i ' + str(self.interval) + ' '  + self.address
+        self.outputFile = open(self.logFile, 'w')
+        self.p = subprocess.Popen(self.builtcommand, stdout= self.outputFile, shell=True)
+
 		return True
 
 	@agentmethod()
 	def stopPing(self,msg):
 		pid = self.p.pid+1
 		theEnd = subprocess.Popen('kill -9 ' + str(pid), shell=True) 		
+		self.outputFile.close()
 		os._exit(1)
 		return True
