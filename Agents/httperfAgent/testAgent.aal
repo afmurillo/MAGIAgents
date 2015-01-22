@@ -1,0 +1,39 @@
+streamstarts: [http, cleanupstream]
+
+groups: 
+    httperfClient: [attackNode-1]
+
+agents:
+    httpAgent:
+         group: httperfClient
+         code: /share/magi/modules/Agents/httperfAgent
+         execargs: []
+
+eventstreams:
+
+   http:
+       - type: event
+         agent: httpAgent
+         trigger: configDone
+         method: setConfiguration
+         args:
+           port: 80
+           numconns: 600
+           rate: 100
+           server: 'servernode'
+           url: 'http://servernode/index.html'
+           timeout: 7
+           file: '/root/Git/FlowFence/InitialResults/iperf_beta.txt'
+
+       - type: trigger
+         triggers: [{event: configDone, agent: httpAgent}]
+
+       - type: event
+         agent: httpAgent
+         method: startPerf
+         trigger: finished
+         args: { }
+
+   cleanupstream:
+       - type: trigger
+         triggers: [ { event: finished, target: exit} ]  

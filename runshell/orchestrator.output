@@ -1,0 +1,18 @@
+03-27 00:49:54 magi.messaging.worker INFO     Request to add new transport TCPTransport control.case11.montage:18808 to map
+stream initialization : done : trigger GroupBuildDone group1  complete.
+stream initialization : sent : loadAgent script1 --> group1 
+stream initialization : done : trigger AgentLoadDone  script1 complete.
+stream initialization : DONE : complete.
+stream main           : sent : execute(None) --> group1  (fires trigger: execDone)
+stream main           : done : trigger execDone  complete.
+stream main           : sent : execute(None) --> group1  (fires trigger: execDoneAgain)
+stream main           : done : trigger execDoneAgain  complete.
+stream main           : sent : setConfiguration(['/share/magi/module ... ) --> group1  (fires trigger: configDone)
+stream main           : done : trigger configDone  complete.
+stream main           : sent : execute(None) --> group1  (fires trigger: execDoneAgainAndAgain)
+stream main           : done : trigger execDoneAgainAndAgain  complete.
+stream teardown       : sent : unloadAgent script1 --> group1 
+stream teardown       : done : trigger AgentUnloadDone  script1 complete.
+stream teardown       : sent : leaveGroup group1 --> __ALL__ 
+stream teardown       : done : trigger GroupTeardownDone group1  complete.
+stream teardown       : DONE : complete.

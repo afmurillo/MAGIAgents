@@ -1,0 +1,26 @@
+streamstarts: [ping]
+
+groups: 
+    pinger: [attackNode-1]
+
+agents:
+    PingAgent:
+         group: pinger
+         code: /share/magi/modules/Agents/PingerAgent
+         execargs: []
+
+eventstreams:
+
+   ping:
+       - type: event
+         agent: PingAgent
+         method: startPing
+         args: { }
+
+       - type: trigger
+         triggers: [{timeout: 3000}]
+
+       - type: event
+         agent: PingAgent
+         method: stopPing
+         args: { }

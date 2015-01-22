@@ -1,0 +1,26 @@
+name: Pinger
+display: Pinger Agent
+description: This agent usses command ping
+execute: thread
+mainfile: Pinger.py
+inherits:
+    - DispatchAgent
+
+methods: 
+    - name: startPing
+    - help: Start the ping test
+    - args: []
+
+    - name: stopPing
+    - help: Stop the ping test
+    - args: []
+
+
+variables:
+    - name: interval
+      help: Interval between ICMP requests
+      type: int
+
+    - name: address
+      help: Host address to ping
+      type: string

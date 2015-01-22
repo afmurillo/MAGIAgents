@@ -1,0 +1,34 @@
+name: Slowris
+display: Slowris Agent
+description: This agent uses the Slowris application DoS Tool
+
+execute: thread
+mainfile: Slowris.py
+inherits:
+    - DispatchAgent
+
+methods: 
+    - name: startSlowris
+    - help: Start Slowris attack
+    - args: []
+
+variables:
+    - name: host
+      help: Host to be attacked
+      type: string
+
+    - name: port
+      help: Host port
+      type: int
+
+    - name: timeout
+      help: Timeout of transactions
+      type: int
+      
+    - name: num
+      help: Number of concorrent connections
+      type: int
+ 
+    - name: tcptimeout
+      help: timeout of connections
+      type: int

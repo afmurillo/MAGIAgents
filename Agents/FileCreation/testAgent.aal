@@ -1,0 +1,18 @@
+streamstarts: [ main ]
+
+groups:
+    myFileCreatorGroup: [attackNode-1]
+
+agents:
+    myFileCreators:
+        group: myFileCreatorGroup
+        code: /share/magi/modules/Agents/FileCreation
+        execargs: []
+
+eventstreams:
+    main:
+        - type: event
+          agent: myFileCreators
+          method: createFile
+          args: {}
+

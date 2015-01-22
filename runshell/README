@@ -1,0 +1,16 @@
+name: runshell
+magiversion: 0.9.0 
+agentversion: 0.1 
+description: 
+A python based wrapper to run shell script. 
+Once the shell script execution is completed, the stdout and stderr output is 
+directed to the local magi daemon log.
+execute: thread
+mainfile: runshell.py
+inherits:
+   - DispatchAgent  
+variables:
+   - name: path
+     type: string 
+     help: The path to the shell script   
+

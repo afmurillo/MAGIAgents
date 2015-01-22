@@ -1,0 +1,35 @@
+03-20 13:56:57 root         INFO     set log level to info (20)
+03-20 13:56:57 magi.messaging.transportTCP INFO     connect attacknode-1.DosLan.FITSv2:18808
+03-20 13:56:57 magi.messaging.transportTCP INFO     If connection fails, it will retry shortly.
+03-20 13:56:57 magi.orchestrator.orchestrator INFO     orch sends args:
+  group: pinger
+  nodes: [attackNode-1]
+method: joinGroup
+version: 1.0
+
+03-20 13:56:57 magi.messaging.worker INFO     Request to add new transport TCPTransport attacknode-1.DosLan.FITSv2:18808 to map
+03-20 13:56:57 magi.orchestrator.orchestrator INFO     incoming trigger: TriggerData args: {'group': 'pinger', 'event': 'GroupBuildDone'}, sets: defaultdict(<type 'set'>, {'nodes': set(['attackNode-1'])})
+03-20 13:56:57 magi.orchestrator.orchestrator INFO     trigger firing {'group': 'pinger', 'event': 'GroupBuildDone'}, target is None, isTimeout False
+03-20 13:56:57 magi.orchestrator.orchestrator INFO     orch sends args:
+  code: /proj/FITSv2/PingerAgent
+  dock: PingAgent_dock
+  execargs: []
+  name: PingAgent
+method: loadAgent
+version: 1.0
+
+03-20 13:56:58 magi.orchestrator.orchestrator INFO     incoming trigger: TriggerData args: {'event': 'AgentLoadDone', 'name': 'PingAgent'}, sets: defaultdict(<type 'set'>, {'nodes': set(['attackNode-1'])})
+03-20 13:56:58 magi.orchestrator.orchestrator INFO     trigger firing {'event': 'AgentLoadDone', 'name': 'PingAgent'}, target is None, isTimeout False
+03-20 13:56:58 magi.orchestrator.orchestrator INFO     orch sends args: {}
+method: startPing
+version: 1.0
+
+03-20 13:56:58 magi.orchestrator.orchestrator INFO     incoming trigger: TriggerData args: {'event': 'startPing'}, sets: defaultdict(<type 'set'>, {'nodes': set(['attackNode-1']), 'retVal': set([True])})
+03-20 13:57:01 magi.orchestrator.orchestrator INFO     trigger firing {}, target is None, isTimeout True
+03-20 13:57:01 magi.orchestrator.orchestrator INFO     orch sends args: {}
+method: stopPing
+version: 1.0
+
+03-20 13:57:01 magi.messaging.transportStream INFO     closing transport
+03-20 13:57:01 magi.messaging.worker INFO     Transport TCPTransport attacknode-1.DosLan.FITSv2:18808 closed, removing from map
+03-20 13:57:01 magi.messaging.worker INFO     schedule reconnect for TCPTransport attacknode-1.DosLan.FITSv2:18808

@@ -1,0 +1,29 @@
+03-26 15:53:01 magi.messaging.transportTCP INFO     MainThread connect 192.168.1.135:28808
+03-26 15:53:01 magi.messaging.transportTCP INFO     MainThread If connection fails, it will retry shortly.
+03-26 15:53:01 magi.messaging.worker INFO     worker Request to add new transport TCPTransport 192.168.1.135:28808 to map
+03-27 00:26:54 magi.daemon.daemon INFO     daemon Agent <ThreadedAgent(script1, started daemon 140032130856704)> already loaded on dock group1. Returning successful "load".
+03-27 00:26:55 magi.modules.script1 INFO     script1 startscript called
+03-27 00:26:55 magi.modules.script1 INFO     script1 Running cmd: ['/share/magi/modules/test.sh']
+03-27 00:26:55 magi.modules.script1 INFO     script1 Output from ['/share/magi/modules/test.sh']
+03-27 00:27:05 magi.modules.script1 INFO     script1 hello
+
+03-27 00:27:05 magi.modules.script1 INFO     script1 startscript called
+03-27 00:27:05 magi.modules.script1 INFO     script1 Running cmd: ['/share/magi/modules/test.sh']
+03-27 00:27:05 magi.modules.script1 INFO     script1 Output from ['/share/magi/modules/test.sh']
+03-27 00:27:15 magi.modules.script1 INFO     script1 hello
+
+03-27 00:27:16 magi.modules.script1 INFO     script1 startscript called
+03-27 00:27:16 magi.modules.script1 INFO     script1 Running cmd: ['/share/magi/modules/iter.sh']
+03-27 00:27:16 magi.modules.script1 INFO     script1 Output from ['/share/magi/modules/iter.sh']
+03-27 00:27:16 magi.modules.script1 INFO     script1 Value i=1
+Value i=2
+Value i=3
+Value i=4
+Value i=5
+Value i=6
+Value i=7
+Value i=8
+Value i=9
+Value i=10
+
+03-27 00:27:17 magi.daemon.threadInterface INFO     script1 Agent script1 has finished

@@ -1,0 +1,11 @@
+name: apacheserver
+display: Apache Server
+description: start, stop and config of the apache HTTP server
+execute: thread
+mainfile: apache.py
+inherits:
+   - sharedserver
+software:
+   - apache
+   - jonpy07
+

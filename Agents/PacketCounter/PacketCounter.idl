@@ -1,0 +1,33 @@
+name: PacketCounter
+display: PacketCounter Agent
+description: This agent uses the ifconfig statistics to count packets in an interface. Using a determined sample time and for certain duration. Should be run as root.
+execute: thread
+mainfile: PacketCounter.py
+inherits:
+    - DispatchAgent
+
+methods: 
+    - name: starCount
+    - help: Start counting packets
+    - args: []
+
+variables:
+    - name: delay
+      help: Time between samples
+      type: int
+
+    - name: totalTime
+      help: Total time of counting
+      type: int
+
+    - name: interface
+      help: Interface to count
+      type: string
+      
+    - name: direction
+      help: Direction of packets to be counted, should be "TX/RX"
+      type: string
+ 
+    - name: aFile
+      help: File to write the output of the counting
+      type: string

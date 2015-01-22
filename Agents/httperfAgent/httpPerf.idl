@@ -1,0 +1,41 @@
+name: HttpPerf
+display: HtttPerf Agent
+description: This agent usses command httperf.
+execute: thread
+mainfile: httpPerf.py
+inherits:
+    - DispatchAgent
+
+methods: 
+    - name: startPerf
+    - help: Start the httperf test
+    - args: []
+
+variables:
+    - name: port
+      help: Port number of http server
+      type: int
+
+    - name: numconns
+      help: Number of total connections to create
+      type: int
+
+    - name: rate
+      help: Rate of number of connections per second
+      type: int
+      
+    - name: server
+      help: Common name of the server
+      type: string
+ 
+    - name: url
+      help: Url of content to retrieve with each connection
+      type: string
+
+    - name: timeout
+      help: Timeout of connection attempt
+      type: int
+
+    - name: file
+      help: File to write test output
+      type: string

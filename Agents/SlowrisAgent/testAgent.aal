@@ -1,0 +1,32 @@
+streamstarts: [slow, cleanupstream]
+
+groups: 
+    slowpoke: [attackNode-1]
+
+agents:
+    SlowisAgent:
+         group: slowpoke
+         code: /share/magi/modules/Agents/SlowrisAgent
+         execargs: []
+
+eventstreams:
+
+   slow:
+       
+       - type: event
+         agent: SlowisAgent
+         method: startSlowris         
+         args: { }
+
+       - type: trigger
+         triggers: [{timeout: 10000}]
+
+       - type: event
+         agent: SlowisAgent
+         method: stopSlowris
+         trigger: finished
+         args: {}
+
+   cleanupstream:
+       - type: trigger
+         triggers: [ { event: finished, target: exit} ]  

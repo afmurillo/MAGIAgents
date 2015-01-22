@@ -1,0 +1,56 @@
+## The agent implementation and addressing information 
+agents:
+  attack_agent:
+    group: client_group
+    path: /share/magi/modules/flooder/flooder.tar.gz
+    execargs: {}
+
+## The mapping from the AAL procedure to the experiment apparatus 
+groups:
+  client_group: [attackNode-1]
+
+streamstarts: [ clientstream, cleanupstream ]
+
+eventstreams:
+
+  clientstream:      
+
+      - type: event
+        agent: attack_agent
+        method: setConfiguration
+        args:
+          src: '10.1.1.31'
+          lowtime: '1001'
+          proto: 'tcp'
+          dst: '10.1.1.8'
+          hightime: '1001'
+          risetime: '51'
+          length: 'minmax(101,1000)'
+          ratetype: 'pulse'
+          dport: 'minmax(1001,1011)'
+          highrate: '60001'
+          lowrate: '50001'
+          falltime: '51'
+          sport: 'minmax(1001,1011)'
+
+      - type: event
+        agent: attack_agent
+        method: startFlood
+        args: {}
+
+      - type: trigger
+        triggers: [{timeout: 5000}]
+
+      - type: event
+        agent: attack_agent
+        method: stopFlood
+        trigger: floodStopped 
+        args: {}
+      
+
+  cleanupstream:
+      - type: trigger
+        triggers: [ {event: floodStopped, target: exit} ] 
+
+################################################
+

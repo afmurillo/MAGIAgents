@@ -1,0 +1,24 @@
+streamstarts: [count, cleanupstream]
+
+groups: 
+    counter: [attackNode-1]
+
+agents:
+    CounterAgent:
+         group: counter
+         code: /share/magi/modules/Agents/PacketCounter
+         execargs: []
+
+eventstreams:
+
+   count:
+       
+       - type: event
+         agent: CounterAgent
+         method: startCount
+         trigger: finished
+         args: { }
+
+   cleanupstream:
+       - type: trigger
+         triggers: [ { event: finished, target: exit} ]  
