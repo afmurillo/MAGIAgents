@@ -1,0 +1,37 @@
+streamstarts: [iperf, cleanupstream]
+
+groups: 
+    iperfClient: [attackNode-1]
+
+agents:
+    iperfAgent:
+         group: iperfClient
+         code: /share/magi/modules/Agents/iperfAgent
+         execargs: []
+
+eventstreams:
+
+   http:
+       - type: event
+         agent: iperfAgent
+         trigger: configDone
+         method: setConfiguration
+         args:
+           connect: '10.1.2.1'
+           mode: 'TCP'
+           format: 'm'
+           duration_time: 60
+           report_time: 1
+
+       - type: trigger
+         triggers: [{event: configDone, agent: iperfAgent}]
+
+       - type: event
+         agent: iperfAgent
+         method: startPerf
+         trigger: finished
+         args: { }
+
+   cleanupstream:
+       - type: trigger
+         triggers: [ { event: finished, target: exit} ]  

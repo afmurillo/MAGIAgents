@@ -1,0 +1,37 @@
+name: iperf
+display: iperf Agent
+description: This agent usses command iperf.
+execute: thread
+mainfile: iperf.py
+inherits:
+    - DispatchAgent
+
+methods: 
+    - name: startPerf
+    - help: Start the iperf test
+    - args: []
+
+variables:
+    - name: connect
+      help: Server to connect to run test
+      type: string
+
+    - name: bw
+      help: Only used in UDP mode. Defines target bw
+      type: string
+
+    - name: format
+      help: Format to display results, default is Mbits
+      type: string
+      
+    - name: duration_time
+      help: Test duration time
+      type: int
+ 
+    - name: report_time
+      help: Interval time to report results
+      type: int
+
+    - name: mode
+      help: Defines test mode, TCP or UDP
+      type: string

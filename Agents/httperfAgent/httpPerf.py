@@ -4,13 +4,13 @@ from magi.util.agent import DispatchAgent, agentmethod
 import subprocess, os
 
 def getAgent():
-    return httpPerf()
+    return httpPerf() 
 
 class httpPerf(DispatchAgent):
 	def __init__(self):
 		DispatchAgent.__init__(self)
 		self.port= 80
-		self.numconns = 600
+		self.numconns = 300
 		self.rate = 100
 		self.server = 'servernode'
 		self.url = 'http://servernode/index.html'
