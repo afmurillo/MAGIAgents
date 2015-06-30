@@ -1,0 +1,23 @@
+streamstarts: [ping, cleanupstream]
+
+groups: 
+    pingClient: [attackNode-3]
+
+agents:
+    pingAgent:
+         group: pingClient
+         code: /share/magi/modules/Agents/hPingAgent
+         execargs: []
+
+eventstreams:
+
+   ping:
+       - type: event
+         agent: pingAgent
+         method: startPing
+         trigger: finished
+         args: { }
+
+   cleanupstream:
+       - type: trigger
+         triggers: [ { event: finished, target: exit} ]  

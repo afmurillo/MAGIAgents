@@ -1,0 +1,41 @@
+name: hPing
+display: hPing Agent
+description: This agent usses command nping.
+execute: thread
+mainfile: hPing.py
+inherits:
+    - DispatchAgent
+
+methods: 
+    - name: startPing
+    - help: Start the nping command
+    - args: []
+
+variables:
+    - name: mode
+      help: Mode of operation (TCP, UDP, ICMP)
+      type: string
+
+    - name: source_port
+      help: Source port of the messages
+      type: int
+
+    - name: destination_port
+      help: Destination port of the messages
+      type: int
+      
+    - name: initial_address
+      help: Client machine address, from these address the IPs will be spoofed
+      type: string
+ 
+    - name: num_flows
+      help: Number of flows that will be created
+      type: int
+
+    - name: desired_load
+      help: Desired load that each flow will generate (in KB/s)
+      type: int
+
+    - name: data_length
+      help: Length of each message sent
+      type: int
