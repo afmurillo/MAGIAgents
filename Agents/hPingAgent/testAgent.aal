@@ -6,7 +6,7 @@ groups:
 agents:
     pingAgent:
          group: pingClient
-         code: /share/magi/modules/Agents/hPingAgent
+         code: /share/magi/modules/MAGIAgents/Agents/hPingAgent/
          execargs: []
 
 eventstreams:
