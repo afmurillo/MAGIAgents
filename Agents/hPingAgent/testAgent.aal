@@ -1,7 +1,7 @@
 streamstarts: [ping, cleanupstream]
 
 groups: 
-    pingClient: [attackNode-3]
+    pingClient: [attackNode-11]
 
 agents:
     pingAgent:
