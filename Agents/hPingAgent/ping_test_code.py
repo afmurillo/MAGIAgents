@@ -5,7 +5,8 @@ source_port = '5629'
 destination_port = '80'
 experiment_duration = 30
 destionation_ip = '8.8.8.8'
-initial_address = subprocess.check_output("ifconfig | grep 192 | awk '{print $2}';", shell=True, )
+initial_address = subprocess.check_output("ifconfig | grep 192 | awk '{print $2}';", shell=True)
+print "Aba: ", initial_address
 initial_address.split(":")[1]
 print "Initial address: " + str(initial_address)
 num_flows = 10
@@ -14,11 +15,14 @@ num_flows = 10
 desired_load = 1000
 
 source_ips = []
-ip_unit = int(initial_address.split('.')[3])
-print "IP unit: ", ip_unit
+ip_unit = initial_address.split('.')[3].split('\n')[0]
+print "IP unit: " + ip_unit
+
 
 for i in range(num_flows):
-	source_ips.append('192.168.0.' + str(ip_unit + i))
+	source_ips.append('192.168.0.' + ip_unit + str(i))
+	print "ip unit: ", ip_unit
+	print "i: ", i
 
 print "Sources IPs to be used: ", source_ips
 

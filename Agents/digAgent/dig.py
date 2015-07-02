@@ -15,9 +15,9 @@ class dig(DispatchAgent):
 		
 		self.server = '10.1.2.1' 
 		self.host = 'www.flowfence.com'
-		self.rate = 20
-		self.n_requests = 3000
-		self.log_file_name = 'dig_output_1.txt'
+		self.rate = 0.5
+		self.n_requests = 30
+		self.log_file_name = '/share/magi/modules/MAGIAgents/Agents/digAgent/dig_output_1.txt'
 
 	@agentmethod()
 	def startDig(self, msg):

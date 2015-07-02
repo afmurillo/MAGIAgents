@@ -21,7 +21,7 @@ class hPing(DispatchAgent):
 		self.num_flows = 10
 
 		#in Kbits
-		self.desired_load = 1000
+		self.desired_load = 1000000
 
 		self.source_ips = []
 		ip_unit = self.initial_address.split('.')[3].split('\n')[0]
