@@ -1,0 +1,23 @@
+streamstarts: [htttp, cleanupstream]
+
+groups: 
+    httpClient: [httpClient-1]
+
+agents:
+    httpAgent:
+         group: digClient
+         code: /share/magi/modules/MAGIAgents/Agents/digAgent/
+         execargs: []
+
+eventstreams:
+
+   http:
+       - type: event
+         agent: httpAgent
+         method: startHttp
+         trigger: finished
+         args: { }
+
+   cleanupstream:
+       - type: trigger
+         triggers: [ { event: finished, target: exit} ]  

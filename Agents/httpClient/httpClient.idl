@@ -1,0 +1,33 @@
+name: httpClient
+display: wget Agent
+description: This agent usses command dig.
+execute: thread
+mainfile: httpClient.py
+inherits:
+    - DispatchAgent
+
+methods: 
+    - name: startHttp
+    - help: Start the wget requests
+    - args: []
+
+variables:
+    - name: url
+      help: URL of the content to be retrieved
+      type: string
+
+    - name: rate
+      help: Rate of sequential requests
+      type: int
+
+    - name: n_requests
+      help: Number of requests to be made
+      type: int
+ 
+    - name: log_file_name
+      help: Log file to write the output of the queries
+      type: string
+
+    - name: limit_rate
+      help: Limit rate of each request (In k, m)
+      type: string
