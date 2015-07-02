@@ -1,6 +1,6 @@
 name: httpClient
 display: wget Agent
-description: This agent usses command dig.
+description: This agent usses command wget.
 execute: thread
 mainfile: httpClient.py
 inherits:

@@ -1,12 +1,12 @@
-streamstarts: [htttp, cleanupstream]
+streamstarts: [http, cleanupstream]
 
 groups: 
-    httpClient: [httpClient-1]
+    httpClient: [attackNode-3]
 
 agents:
     httpAgent:
-         group: digClient
-         code: /share/magi/modules/MAGIAgents/Agents/digAgent/
+         group: httpClient
+         code: /share/magi/modules/MAGIAgents/Agents/httpClient/
          execargs: []
 
 eventstreams:
