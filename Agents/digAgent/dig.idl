@@ -1,0 +1,33 @@
+name: dig
+display: dig Agent
+description: This agent usses command dig.
+execute: thread
+mainfile: dig.py
+inherits:
+    - DispatchAgent
+
+methods: 
+    - name: startDig
+    - help: Start the dig command
+    - args: []
+
+variables:
+    - name: server
+      help: Server to be queried
+      type: string
+
+    - name: host
+      help: Host to be queried about
+      type: string
+
+    - name: rate
+      help: Queries rate
+      type: int
+      
+    - name: n_requests
+      help: Number of requests to be made
+      type: int
+ 
+    - name: log_file_name
+      help: Log file to write the output of the queries
+      type: string

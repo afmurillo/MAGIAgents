@@ -1,0 +1,23 @@
+streamstarts: [dig, cleanupstream]
+
+groups: 
+    digClient: [digClient-1]
+
+agents:
+    digAgent:
+         group: digClient
+         code: /share/magi/modules/MAGIAgents/Agents/digAgent/
+         execargs: []
+
+eventstreams:
+
+   ping:
+       - type: event
+         agent: digAgent
+         method: startDig
+         trigger: finished
+         args: { }
+
+   cleanupstream:
+       - type: trigger
+         triggers: [ { event: finished, target: exit} ]  

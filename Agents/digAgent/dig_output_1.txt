@@ -1,0 +1,950 @@
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6169
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		52	IN	A	216.58.219.100
+
+;; Query time: 50 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:05 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13022
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		173	IN	A	216.58.192.100
+
+;; Query time: 54 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:06 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52116
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		173	IN	A	216.58.192.100
+
+;; Query time: 42 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:06 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58137
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		107	IN	A	216.58.219.100
+
+;; Query time: 48 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:06 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37952
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		171	IN	A	216.58.192.100
+
+;; Query time: 87 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:06 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13786
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		167	IN	A	216.58.219.132
+
+;; Query time: 80 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:06 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15915
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		42	IN	A	216.58.219.132
+
+;; Query time: 89 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:06 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63142
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		42	IN	A	216.58.219.132
+
+;; Query time: 59 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:06 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28519
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		60	IN	A	216.58.219.164
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:07 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9181
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		167	IN	A	216.58.219.132
+
+;; Query time: 65 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:07 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50479
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		172	IN	A	216.58.219.132
+
+;; Query time: 66 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:07 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28021
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		269	IN	A	216.58.192.100
+
+;; Query time: 45 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:07 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23758
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		166	IN	A	216.58.219.132
+
+;; Query time: 48 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:07 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48106
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		268	IN	A	216.58.192.100
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:07 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18027
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		41	IN	A	216.58.219.132
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:07 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7935
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		268	IN	A	216.58.192.100
+
+;; Query time: 45 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:07 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26756
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		105	IN	A	216.58.219.164
+
+;; Query time: 40 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:07 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57926
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		145	IN	A	216.58.192.100
+
+;; Query time: 45 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:08 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48394
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		158	IN	A	216.58.219.100
+
+;; Query time: 47 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:08 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22002
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		41	IN	A	216.58.219.132
+
+;; Query time: 40 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:08 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51076
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		184	IN	A	216.58.192.100
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:08 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41766
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		254	IN	A	216.58.219.100
+
+;; Query time: 42 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:08 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14876
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		89	IN	A	216.58.219.100
+
+;; Query time: 44 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:08 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47961
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		267	IN	A	216.58.192.100
+
+;; Query time: 42 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:08 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8419
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		58	IN	A	216.58.219.164
+
+;; Query time: 43 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:08 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34574
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		254	IN	A	216.58.219.100
+
+;; Query time: 42 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:08 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42537
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		165	IN	A	216.58.219.132
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:09 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16172
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		165	IN	A	216.58.219.132
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:09 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61269
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		254	IN	A	216.58.219.100
+
+;; Query time: 45 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:09 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9457
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		169	IN	A	216.58.192.100
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:09 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45744
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		253	IN	A	216.58.219.100
+
+;; Query time: 42 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:09 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16210
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		253	IN	A	216.58.219.100
+
+;; Query time: 42 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:09 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40423
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		253	IN	A	216.58.219.100
+
+;; Query time: 44 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:09 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17817
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		168	IN	A	216.58.192.100
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:09 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36943
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		156	IN	A	216.58.219.100
+
+;; Query time: 44 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:09 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12488
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		168	IN	A	216.58.192.100
+
+;; Query time: 40 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:10 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58247
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		266	IN	A	216.58.192.100
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:10 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46459
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		156	IN	A	216.58.219.100
+
+;; Query time: 49 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:10 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62007
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		274	IN	A	216.58.219.164
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:10 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44873
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		167	IN	A	216.58.192.100
+
+;; Query time: 42 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:10 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36787
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		273	IN	A	216.58.219.164
+
+;; Query time: 42 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:10 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31519
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		201	IN	A	216.58.192.100
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:10 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46183
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		265	IN	A	216.58.192.100
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:10 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64363
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		47	IN	A	216.58.219.100
+
+;; Query time: 43 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:11 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37740
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		252	IN	A	216.58.219.100
+
+;; Query time: 43 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:11 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48364
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		252	IN	A	216.58.219.100
+
+;; Query time: 42 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:11 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39743
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		265	IN	A	216.58.192.100
+
+;; Query time: 43 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:11 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10302
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		273	IN	A	216.58.219.164
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:11 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36787
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		272	IN	A	216.58.219.100
+
+;; Query time: 41 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:11 2015
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @8.8.8.8 www.google.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15067
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		86	IN	A	216.58.219.100
+
+;; Query time: 48 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Jul  1 21:18:11 2015
+;; MSG SIZE  rcvd: 48
+
